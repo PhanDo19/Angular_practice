@@ -34,6 +34,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppNavItemComponent,
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     FormsModule,
     AppRoutingModule,
